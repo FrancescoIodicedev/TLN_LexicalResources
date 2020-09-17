@@ -60,25 +60,12 @@ def lesk_algorithm(word, sentence):
 
 Il sistema è stato valutato confrontando il senso inferito dall'algoritmo di lesk con quello annotato presente nel corpo SemCor.
 
-**data size = 50**
-
 Version WSD | Accuracy 
 ------------ | :------------: 
 | | 
 | |
 WSD nltk | 38% 
 WSD implemented | 64%
-
-**data size = 500**
-
-Version WSD | Accuracy 
------------- | :------------: 
-| | 
-| |
-WSD nltk | 38% 
-WSD implemented | 64%
-
-
 
 ## Authors
 

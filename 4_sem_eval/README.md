@@ -86,7 +86,7 @@ coppie.
 La funzione presente nel file `semeval_mapper.ipynb` data come string in input 'Iodice' restituisce il seguente intervallo:
  - Iodice : coppie nell'intervallo 251-300
 
-Dal file `SemEval17_IT_senses2synsets.txt` che contiene il mapping da termini a synset corrispondenti, è stata creata una mappa `sense2syn` con chiavi i diversi termini e per valori la lista di bable synset corrispondenti.
+Dal file `SemEval17_IT_senses2synsets.txt`, che contiene il mapping da termini a synset corrispondenti, è stata creata una mappa `sense2syn` con chiavi i diversi termini e per valori la lista di bable synset corrispondenti.
 Dal file `mini_NASARI.tsv` è stato realizzata una mappa che per chiavi ha i diversi bable synset è per valori la coppia (name, vector):
 - **name**: lemma del bable synset
 - **v** : vettore embed corrispondente
@@ -123,7 +123,7 @@ Per quanto riguardo la consegna 2, l'annotazione manuale è nel file `bid_annota
 
 Dove **Term1 Term2** sono la coppia di termini presenti anche nel file `valsim_annotated.txt` , **BS1** e **BS2** sono i bable synset annotati manualmente corrispondenti ai sensi dei termini **Term1 Term2**.
 
-Per estrarre i sensi di **Term1 e Term2** che massimizzano la cosine similarity è stata usata una funzione analoga alla precedente, che oltre al massimo valore per coppia di sensi restituisce i sensi che lo massimizzano.
+Per estrarre i sensi di **Term1 e Term2** che massimizzano la cosine similarity, è stata usata una funzione analoga alla precedente, che oltre al massimo valore per coppia di sensi restituisce i sensi che lo massimizzano.
 
 Individuati i synset viene utilizzata la seguente funzione per estrarre i primi 5 termini presenti nel bable synset passato come parametro.
 
@@ -145,4 +145,8 @@ Di seguito l'accuratezza calcolata sia sul numero giusto di bable synset inferit
  - **Term** accuracy : **26.66**
  - **Coplues** accuracy : **38.33**
  
- Nel file result.txt è presente una lista di tutti i bable sysnet annotati confronati con quelli inferiti dal programma con i relativi punteggi di similarità sia manuali che calcolati dal programma.
+Nel file `result.txt è` presente una lista di tutti i bable sysnet annotati confronti con quelli inferiti dal programma, con i relativi punteggi di similarità sia manuali che calcolati dal programma.
+ 
+ ## Authors
+ 
+ - Iodice Franesco

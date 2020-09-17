@@ -16,7 +16,7 @@ LEXICAL_UNIT = 2
 #  element structure
 #   [ { frame_name, synset} ,
 #       [ {frame_element, synset} .. }],
-#       [ {lexical_unit, synset} .. }]
+#       [ {lexical_unit, synset} .. }]]
 #
 
 

@@ -2,7 +2,6 @@ from typing import List
 import numpy as np
 from IPython.lib.pretty import pprint
 from nltk import WordNetLemmatizer
-
 from word_sense_disambiguation.wsd import build_words_path_set
 from nltk.corpus import wordnet
 
@@ -146,9 +145,9 @@ def rank_by_weighted_overlap(context, paragraphs, nasari):
                     # w2 type list -> ([0]lemma_w2, [1]nasari_vector_of_w2)
                     rank += sim(w1, w2, nasari)
         ranks.append(rank)
-    # Compressing value from range [0:50] -> [0:10]
+    # Compressing value from range [0:50] -> [0:5]
     for i, val in enumerate(ranks):
-        ranks[i] = val / 10
+        ranks[i] = val / 7
     return ranks
 
 

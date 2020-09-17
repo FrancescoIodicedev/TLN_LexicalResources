@@ -102,7 +102,7 @@ La funzione **rank(q,v)** restituisce il rank dell'elemento `q` in `v`.
  - `v` è un vettore di termini ordinati in base alla loro rilevanza
 Il valore restitutio della funzione è l'indice dell'elemenento `q` in `v`.
 
-I valori ottenuti per ogni paragrafo sono stati compressi in modo da ridurre l' intervallo da **[0:50]** a **[0:5]**. 
+I valori ottenuti per ogni paragrafo sono stati compressi, in modo da ridurre l' intervallo da **[0:50]** a **[0:5]**. 
 Questo perchè i valori di rank restituiti dalle altre 2 metriche si trovano in un intervallo **[0:5]** e senza una compressione dei valori il **WO** avrebbe apportato un contributo sbilanciato al ranking totale del paragrafo.
 
 ## Results
