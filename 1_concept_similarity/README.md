@@ -98,10 +98,9 @@ La funzione ritorna il massimo valore di similarità fra ogni coppia di sensi
 
 ## Results
 	
-Similarity index | Spearman index | Pearson index |
+Similarity | Spearman value | Pearson value |
 ------------ | :------------: | :-------------:
 | | 
-| |
 Wu & Palmer | 0.3179 | 0.2617
 Shortest Path | 0.2127 | 0.0877
 Leakcock & Chodorow | 0.2127 | 0.1951

@@ -1,8 +1,5 @@
-from typing import List
 import numpy as np
-from IPython.lib.pretty import pprint
 from nltk import WordNetLemmatizer
-from word_sense_disambiguation.wsd import build_words_path_set
 from nltk.corpus import wordnet
 
 PATH_STOP_WORDS = 'utils/stop_words_FULL.txt'
@@ -46,6 +43,14 @@ def load_text(path):
             result.append(line.strip())
     return result
 
+
+def build_words_path_set(path):
+    res = set()
+    with open(path, 'r') as file:
+        lines = file.readlines()
+    for line in lines:
+        res.add(str(line.rstrip()))
+    return res
 
 #### Utility ####
 
@@ -241,15 +246,15 @@ def write_text(text_summeridez, pathfile):
 if __name__ == '__main__':
     texts_name = ['Life-indoors.txt', 'Andy-Warhol.txt', 'Ebola-virus-disease.txt', 'Napoleon-wiki.txt']
     n_vectors = load_nasari(PATH_NASARI_SMALL)
+    compression_rate = 20
 
     for text_filename in texts_name:
-
+        print('\n\n********* TEXT NAME {} **********\n'.format(text_filename))
         text_path = 'texts_to_summarize/' + text_filename
         text_summeridez_path = './texts_summarized/' + text_filename
 
         text = load_text(text_path)
-        compression_rate = 20
 
-        text_summeridez = summarize_text(text, n_vectors, 20)
+        text_summeridez = summarize_text(text, n_vectors, compression_rate)
 
         write_text(text_summeridez, text_summeridez_path)

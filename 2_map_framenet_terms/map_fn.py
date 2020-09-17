@@ -3,20 +3,21 @@ import spacy
 from nltk.corpus import framenet as fn
 from random import randint
 from random import seed
-from word_sense_disambiguation.wsd import lesk_algorithm
+from word_sense_disambiguation import wsd
 
 NOT_FOUND = 'NOT_FOUND'
 FRAME_NAME = 0
 FRAME_ELEMENT = 1
 LEXICAL_UNIT = 2
+PATH_TERM_ANNOTATED = './utils/framenet_data.txt'
 
 #  the data structure used to represent the annotation of the various
 #  terms in the frames is a list of this element:
 #
 #  element structure
 #   [ { frame_name, synset} ,
-#       [ {frame_element, synset} .. }],
-#       [ {lexical_unit, synset} .. }]]
+#        {{frame_element, synset} .. },
+#        {{lexical_unit, synset} .. }]
 #
 
 
@@ -181,26 +182,26 @@ def map_terms_to_senses(frames):
                 # FRAME NAME
                 if index == FRAME_NAME:
                     # Ctx(w) f.definition
-                    best_sense = lesk_algorithm(w, f.definition)
+                    best_sense = wsd.lesk_algorithm(w, f.definition)
                     frame[index][value] = str(best_sense).strip()
 
                 # FRAME ELEMENT
                 if index == FRAME_ELEMENT:
                     # Ctx(w) = f.FE[value].definition
-                    best_sense = lesk_algorithm(w, f.FE[value].definition)
+                    best_sense = wsd.lesk_algorithm(w, f.FE[value].definition)
                     frame[index][value] = str(best_sense).strip()
 
                 # LEXICAL UNIT
                 if index == LEXICAL_UNIT:
                     # Ctx(w) = f.lexUnit[value].definition
-                    best_sense = lesk_algorithm(w, f.lexUnit[value].definition)
+                    best_sense = wsd.lesk_algorithm(w, f.lexUnit[value].definition)
                     frame[index][value] = str(best_sense).strip()
 
     return frames
 
 
 if __name__ == '__main__':
-    target = parsing_data_target("./utils/framenet_data.txt")
+    target = parsing_data_target(PATH_TERM_ANNOTATED)
 
     framelist = getFrameSetForStudent('Iodice')
 
