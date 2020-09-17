@@ -1,0 +1,152 @@
+Target:  Synset('friday.n.01')
+Inferred:  Synset('friday.n.01')
+Result:  OK
+Target:  Synset('jury.n.01')
+Inferred:  Synset('jury.n.01')
+Result:  OK
+Target:  Synset('september.n.01')
+Inferred:  Synset('september.n.01')
+Result:  OK
+Target:  Synset('handful.n.01')
+Inferred:  Synset('handful.n.01')
+Result:  OK
+Target:  Synset('jury.n.01')
+Inferred:  Synset('jury.n.01')
+Result:  OK
+Target:  Synset('legislator.n.01')
+Inferred:  Synset('legislator.n.01')
+Result:  OK
+Target:  Synset('grand_jury.n.01')
+Inferred:  Synset('thousand.n.01')
+FAIL
+Target:  Synset('jury.n.01')
+Inferred:  Synset('jury.n.01')
+Result:  OK
+Target:  Synset('jury.n.01')
+Inferred:  Synset('jury.n.01')
+Result:  OK
+Target:  Synset('city.n.02')
+Inferred:  Synset('city.n.01')
+FAIL
+Target:  Synset('execution.n.06')
+Inferred:  Synset('execution.n.06')
+Result:  OK
+Target:  Synset('legislature.n.01')
+Inferred:  Synset('legislature.n.01')
+Result:  OK
+Target:  Synset('grand_jury.n.01')
+Inferred:  Synset('grand_piano.n.01')
+FAIL
+Target:  Synset('detail.n.01')
+Inferred:  Synset('item.n.03')
+FAIL
+Target:  Synset('juror.n.01')
+Inferred:  Synset('juror.n.01')
+Result:  OK
+Target:  Synset('parcel.n.02')
+Inferred:  Synset('share.n.01')
+FAIL
+Target:  Synset('failure.n.01')
+Inferred:  Synset('failure.n.01')
+Result:  OK
+Target:  Synset('jury.n.01')
+Inferred:  Synset('jury.n.01')
+Result:  OK
+Target:  Synset('jury.n.01')
+Inferred:  Synset('jury.n.01')
+Result:  OK
+Target:  Synset('action.n.01')
+Inferred:  Synset('action.n.01')
+Result:  OK
+Target:  Synset('atlanta.n.01')
+Inferred:  Synset('atlanta.n.01')
+Result:  OK
+Target:  Synset('jury.n.01')
+Inferred:  Synset('jury.n.01')
+Result:  OK
+Target:  Synset('topic.n.02')
+Inferred:  Synset('matter.n.01')
+FAIL
+Target:  Synset('deputy.n.02')
+Inferred:  Synset('deputy.n.02')
+Result:  OK
+Target:  Synset('legislator.n.01')
+Inferred:  Synset('legislator.n.01')
+Result:  OK
+Target:  Synset('jury.n.01')
+Inferred:  Synset('jury.n.01')
+Result:  OK
+Target:  Synset('lawsuit.n.01')
+Inferred:  Synset('lawsuit.n.01')
+Result:  OK
+Target:  Synset('request.n.01')
+Inferred:  Synset('prayer.n.02')
+FAIL
+Target:  Synset('couple.n.02')
+Inferred:  Synset('couple.n.02')
+Result:  OK
+Target:  Synset('son.n.01')
+Inferred:  Synset('son.n.01')
+Result:  OK
+Target:  Synset('lawyer.n.01')
+Inferred:  Synset('lawyer.n.01')
+Result:  OK
+Target:  Synset('request.n.01')
+Inferred:  Synset('prayer.n.02')
+FAIL
+Target:  Synset('wife.n.01')
+Inferred:  Synset('wife.n.01')
+Result:  OK
+Target:  Synset('request.n.01')
+Inferred:  Synset('prayer.n.02')
+FAIL
+Target:  Synset('dwelling.n.01')
+Inferred:  Synset('home.n.01')
+FAIL
+Target:  Synset('request.n.01')
+Inferred:  Synset('prayer.n.02')
+FAIL
+Target:  Synset('mayor.n.01')
+Inferred:  Synset('mayor.n.01')
+Result:  OK
+Target:  Synset('career.n.01')
+Inferred:  Synset('career.n.01')
+Result:  OK
+Target:  Synset('mayor.n.01')
+Inferred:  Synset('mayor.n.01')
+Result:  OK
+Target:  Synset('campaigner.n.01')
+Inferred:  Synset('campaigner.n.01')
+Result:  OK
+Target:  Synset('georgia.n.01')
+Inferred:  Synset('georgia.n.01')
+Result:  OK
+Target:  Synset('state.n.03')
+Inferred:  Synset('state.n.01')
+FAIL
+Target:  Synset('enthusiasm.n.03')
+Inferred:  Synset('enthusiasm.n.01')
+FAIL
+Target:  Synset('meeting.n.01')
+Inferred:  Synset('meeting.n.01')
+Result:  OK
+Target:  Synset('admonition.n.01')
+Inferred:  Synset('warning.n.01')
+FAIL
+Target:  Synset('crowd.n.01')
+Inferred:  Synset('crowd.n.01')
+Result:  OK
+Target:  Synset('hurdle.n.01')
+Inferred:  Synset('hurdle.n.02')
+FAIL
+Target:  Synset('percentage.n.01')
+Inferred:  None
+FAIL
+Target:  Synset('public_relations.n.01')
+Inferred:  Synset('populace.n.01')
+FAIL
+Target:  Synset('resignation.n.03')
+Inferred:  Synset('resignation.n.02')
+FAIL
+WSD accuracy with Hyponym and Hypernym terms: 64%
+WSD of nltk : 38%

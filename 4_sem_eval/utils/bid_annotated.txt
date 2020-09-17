@@ -1,0 +1,50 @@
+demonio	angelo	bn:00004063n	bn:00009586n	angel,creatura celeste spirituale	devil,satan
+crittogramma	simbolo	bn:00024193n	bn:00075652n	crittogramma	symbol
+campus	università	bn:00015097n	bn:00079152n	campus, Campus universitario	università, accademia, ateneo
+libertà	libertà	 bn:00050954n	bn:00050954n	libertà, autodeterminazione	libertà, autodeterminazione
+tifone	ciclone	bn:00045282n	bn:00045282n	uragano, ciclone, tifone	uragano, ciclone, tifone
+manuale	guida turistica	bn:00424546n	bn:00077745n	Manuale, Enchiridio, Manuali	Guida turistica, Guide turistiche
+Ebola	virus Ebola	bn:03853529n	bn:00029566n	Ebolavirus	Virus Ebola
+principessa	biscotto	bn:00064417n 	bn:21706364n	principessa, principessa	Biscotto
+treno	tram	bn:00066028n	bn:00074613n	treno, convoglio, treno passeggeri	tram, tramvai, tranvai
+ecosistema	economia	bn:00029687n	bn:00029676n	ecosistema, sistema ecologico	economia, economia politica 
+regina regnante	regina degli scacchi	bn:00034025n	bn:17765539n	regina, Regina regnante	regina degli scacchi
+oro	zinco	bn:00006911n 	bn:00006861n	oro, Au 	zinco, Zn
+cursore	patatine fritte	bn:00024529n	bn:00018527n	cursore, puntatore, Puntatore del mouse	patate fritte, Patatine fritte, Chips
+Rio delle Amazzoni	foresta	bn:00003245n 	bn:00035868n	Rio delle Amazzoni, Amazzoni	foresta, bosco, bosco misto
+tennis	statistica	bn:00050287n	bn:00074061n	tennis, pallacorda, tennis sull'erba	statistica, analisi statistica
+Bolzano	teorema	bn:00011913n	bn:00076831n	Provincia Autonoma di Bolzano	teorema
+altitudine	conversione	bn:00003142n	bn:00017678n	altitudine, quota	conversione, transizione
+barca	albero	bn:00011674n	bn:00078131n	barca, imbarcazione, battello	albero, albore, arbore
+trono	spada	bn:00077086n	bn:00011081n	trono, truono	spada, acciaro
+cotone	maglione	bn:00023072n	bn:00048144n	cotone	maglietta, t-shirt, golf, maglione
+ciliegia	fragola	bn:00018175n	bn:00074577n	ciliegio, Ciliegia	fragola, fraga
+Islam	Corano	bn:00047600n	bn:00002370n	islam, islamismo, Islam politico	Corano
+Neanderthal	sport	 bn:00044581n 	bn:00006759n	sport, atletica	Uomo di Neandertal, uomo di Neanderthal
+nepotismo	re	bn:00057307n	bn:00024097n	nepotismo, baronismo	monarca, re, sovrano
+personaggio	persona		bn:00017746n	bn:00046516n	Personaggio immaginario, personaggio   individuo, persona, mortale
+cisterna	vagone	bn:00019258n	bn:00015785n	cisterna, Serbatoio, bottino	Vagone, automotrice, Vagone ferroviario
+Mercurio	Giove	bn:00054426n	bn:00048646n	Mercurio	Giove
+bronchite	acetaminofene	bn:00013313n	bn:00000834n	bronchite	Paracetamolo, paracetamol
+sangue	corpo	bn:00011346n	bn:00014512n	sangue, Blood	cadavere, corpo
+islamofobia	ISIS	bn:00047611n	bn:15487402n	islamofobia, islamofobo	Stato Islamico, IS, ISIL, ISIS
+uncinetto	uniforme	bn:00023884n	bn:14044808n	uncinetto, crochet, croscè	Divisa
+Hadoop	touchscreen	bn:03415734n	bn:00077733n	Apache Hadoop, Hadoop	Touchscreen, Schermo tattile
+combustibile fossile	fossile	bn:00036027n	bn:00036026n	fossile, Fossili	Combustibili fossili, combustibile fossile
+mutante	sociobiologia	bn:00056530n	bn:00072570n	mutante, mutazione	sociobiologia
+sorella	fratello	bn:00071400n	bn:00071400n	fratelli, fratello, sorella	fratelli, fratello, sorella
+matita	storia	bn:00061334n	bn:00044268n	matita, lapis	storia
+eczema	dermatite	bn:00029715n	bn:00026454n	eczema, Eczemi	dermatite, dermatosi
+imperatore	governatore	bn:00030591n	bn:00041204n	imperatore, cesare	governatore, governante
+corona	chiave	bn:00024069n	bn:00019155n	corona	chiave
+algebra	operazione	bn:00002676n	bn:05668966n	algebra	operazione, operazione chirurgica, chirurgia
+pistone	motore	bn:00062630n	bn:00030850n	pistone, stantuffo	motore, Propulsore
+borsa di studio	retta	bn:00069614n	bn:00078557n	borsa di studio, Borse di studio	retta, tassa d'iscrizione, tassa scolastica
+libro	manoscritto	bn:00012059n	bn:00044453n	libro	manoscritto, manoscritti
+lantana	bocca di leone	bn:00049943n	bn:00072399n	lantana	bocca di leone
+buco nero	vuoto	bn:00010920n	bn:03321000n	buco nero	Vuoto, vuoto cosmico
+Impero Persiano	Ciro	bn:00061704n	bn:03352442n	Impero Persiano	Ciro
+editoriale	notizia	bn:00020825n	bn:00057546n	giornale, rivista, giornale della sera 	notizia, notizie, cronaca
+decorazione	busta	bn:00025766n	bn:03384143n	medaglia, decorazione, medaglione	busta
+squalo balena	aragosta	bn:00067621n	bn:00051731n	squalo balena	aragosta, astice
+mais	granturco	bn:00022678n	bn:00022678n	mais, granoturco	mais, granoturco

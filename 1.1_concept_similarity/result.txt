@@ -1,0 +1,363 @@
+# Consegna 1
+
+--------------------------------------------------
+Coefficienti di pearson & Spearmain values annotated manually and values calculate with cosin similairity
+Pearson correlation coeffcient : 0.6625
+Spearman correlation coeffcient : 0.7047
+--------------------------------------------------
+
+# Consegna 2
+
+**************** Words: w1 = demonio w2 = angelo ****************
+	 Bable synset annotated for w1 : bn:00004063n with terms angel,creatura celeste spirituale
+	 Bable synset annotated for w2 : bn:00009586n with terms devil,satan
+	 Head Score: 3.0
+	 Cosin Score: 3.5893
+	 Bable synset calculated for w1 : bn:00009586n with terms ['Satan', 'Old_Nick', 'Devil', 'Lucifer', 'Beelzebub']
+	 Bable synset calculated for w2 : bn:00004063n with terms ['angel', 'angel', 'angel', 'angel', 'angel']
+**************** Words: w1 = crittogramma w2 = simbolo ****************
+	 Bable synset annotated for w1 : bn:00024193n with terms crittogramma
+	 Bable synset annotated for w2 : bn:00075652n with terms symbol
+	 Head Score: 3.5
+	 Cosin Score: 2.4961
+	 Bable synset calculated for w1 : bn:00024193n with terms ['cryptogram', 'cryptograph', 'secret_writing', 'cryptogram', 'cryptogram']
+	 Bable synset calculated for w2 : bn:00070445n with terms ['semiotics', 'semiology', 'semiotics', 'semiology', 'semiotic_studies']
+**************** Words: w1 = campus w2 = università ****************
+	 Bable synset annotated for w1 : bn:00015097n with terms campus, Campus universitario
+	 Bable synset annotated for w2 : bn:00079152n with terms università, accademia, ateneo
+	 Head Score: 3.5
+	 Cosin Score: 3.7631
+	 Bable synset calculated for w1 : bn:00015097n with terms ['campus', 'campus', 'campus', 'campus', 'campus']
+	 Bable synset calculated for w2 : bn:00079152n with terms ['university', 'university', 'university', 'Universität', 'université']
+**************** Words: w1 = libertà w2 = libertà ****************
+	 Bable synset annotated for w1 :  bn:00050954n with terms libertà, autodeterminazione
+	 Bable synset annotated for w2 : bn:00050954n with terms libertà, autodeterminazione
+	 Head Score: 4.0
+	 Cosin Score: 4.0
+	 Bable synset calculated for w1 : bn:00007389n with terms ['autonomy', 'liberty', 'autonomy', 'autonomy', 'autonomy']
+	 Bable synset calculated for w2 : bn:00007389n with terms ['autonomy', 'liberty', 'autonomy', 'autonomy', 'autonomy']
+**************** Words: w1 = tifone w2 = ciclone ****************
+	 Bable synset annotated for w1 : bn:00045282n with terms uragano, ciclone, tifone
+	 Bable synset annotated for w2 : bn:00045282n with terms uragano, ciclone, tifone
+	 Head Score: 4.0
+	 Cosin Score: 4.0
+	 Bable synset calculated for w1 : bn:00045282n with terms ['hurricane', 'Tropical_cyclone', 'hurricane', 'tropical_cyclone', 'typhoon']
+	 Bable synset calculated for w2 : bn:00045282n with terms ['hurricane', 'Tropical_cyclone', 'hurricane', 'tropical_cyclone', 'typhoon']
+**************** Words: w1 = manuale w2 = guida turistica ****************
+	 Bable synset annotated for w1 : bn:00424546n with terms Manuale, Enchiridio, Manuali
+	 Bable synset annotated for w2 : bn:00077745n with terms Guida turistica, Guide turistiche
+	 Head Score: 2.5
+	 Cosin Score: 3.338
+	 Bable synset calculated for w1 : bn:00030689n with terms ['handbook', 'enchiridion', 'vade_mecum', 'handbook', 'handbook']
+	 Bable synset calculated for w2 : bn:00042106n with terms ['guidebook', 'guide', 'guide_book', 'guide_book', 'guidebook']
+**************** Words: w1 = Ebola w2 = virus Ebola ****************
+	 Bable synset annotated for w1 : bn:03853529n with terms Ebolavirus
+	 Bable synset annotated for w2 : bn:00029566n with terms Virus Ebola
+	 Head Score: 4.0
+	 Cosin Score: 3.972
+	 Bable synset calculated for w1 : bn:00029565n with terms ['Ebola_hemorrhagic_fever', 'Ebola_fever', 'Ebola', 'Ebola_virus_disease', 'Ebola']
+	 Bable synset calculated for w2 : bn:00029566n with terms ['Ebola_virus', 'Ebola_virus', 'Ebola_virus', 'Zaire_ebolavirus', 'Congo_ebolavirus']
+**************** Words: w1 = principessa w2 = biscotto ****************
+	 Bable synset annotated for w1 : bn:00064417n  with terms principessa, principessa
+	 Bable synset annotated for w2 : bn:21706364n with terms Biscotto
+	 Head Score: 1.0
+	 Cosin Score: 1.5823
+	 Bable synset calculated for w1 : bn:00064417n with terms ['princess', 'princess', 'princess', 'princess', 'princess']
+	 Bable synset calculated for w2 : bn:00048549n with terms ['jumble', 'jumbal', 'jumble_(cookie)', 'Jumble', 'jumble']
+**************** Words: w1 = treno w2 = tram ****************
+	 Bable synset annotated for w1 : bn:00066028n with terms treno, convoglio, treno passeggeri
+	 Bable synset annotated for w2 : bn:00074613n with terms tram, tramvai, tranvai
+	 Head Score: 3.0
+	 Cosin Score: 3.4717
+	 Bable synset calculated for w1 : bn:00066028n with terms ['train', 'railroad_train', 'train', 'train', 'passenger_train']
+	 Bable synset calculated for w2 : bn:03294634n with terms ['light_rail', 'light_rail', 'light_rail_transit', 'LRT', 'light-rail_vehicle']
+**************** Words: w1 = ecosistema w2 = economia ****************
+	 Bable synset annotated for w1 : bn:00029687n with terms ecosistema, sistema ecologico
+	 Bable synset annotated for w2 : bn:00029676n with terms economia, economia politica
+	 Head Score: 1.0
+	 Cosin Score: 1.9877
+	 Bable synset calculated for w1 : bn:00029687n with terms ['ecosystem', 'ecosystem', 'ecological_system', 'ecosystem', 'ecosystem']
+	 Bable synset calculated for w2 : bn:00029683n with terms ['economy', 'economy']
+**************** Words: w1 = regina regnante w2 = regina degli scacchi ****************
+	 Bable synset annotated for w1 : bn:00034025n with terms regina, Regina regnante
+	 Bable synset annotated for w2 : bn:17765539n with terms regina degli scacchi
+	 Head Score: 1.5
+	 Cosin Score: 0
+	 Bable synset calculated for w1 : None with terms []
+	 Bable synset calculated for w2 : None with terms []
+**************** Words: w1 = oro w2 = zinco ****************
+	 Bable synset annotated for w1 : bn:00006911n  with terms oro, Au
+	 Bable synset annotated for w2 : bn:00006861n with terms zinco, Zn
+	 Head Score: 2.5
+	 Cosin Score: 3.4027
+	 Bable synset calculated for w1 : bn:00006911n with terms ['gold', 'Au', 'atomic_number_79', 'gold', 'Au']
+	 Bable synset calculated for w2 : bn:00006861n with terms ['zinc', 'Zn', 'atomic_number_30', 'zinc', '30Zn']
+**************** Words: w1 = cursore w2 = patatine fritte ****************
+	 Bable synset annotated for w1 : bn:00024529n with terms cursore, puntatore, Puntatore del mouse
+	 Bable synset annotated for w2 : bn:00018527n with terms patate fritte, Patatine fritte, Chips
+	 Head Score: 0.5
+	 Cosin Score: 1.4177
+	 Bable synset calculated for w1 : bn:00024529n with terms ['cursor', 'pointer', 'Cursor_(user_interface)', 'cursor', 'cursor']
+	 Bable synset calculated for w2 : bn:00743205n with terms ['Fries_with_That?', 'Fries_with_That?', 'Fries_With_That', 'Fries_With_That?', 'Sorry,_private_restaurant']
+**************** Words: w1 = Rio delle Amazzoni w2 = foresta ****************
+	 Bable synset annotated for w1 : bn:00003245n  with terms Rio delle Amazzoni, Amazzoni
+	 Bable synset annotated for w2 : bn:00035868n with terms foresta, bosco, bosco misto
+	 Head Score: 2.5
+	 Cosin Score: 2.4695
+	 Bable synset calculated for w1 : bn:00003245n with terms ['Amazon', 'Amazon_River', 'Amazon_river', 'Amazon_River', 'Amazon_River']
+	 Bable synset calculated for w2 : bn:00041737n with terms ['greenwood', 'greenwood']
+**************** Words: w1 = tennis w2 = statistica ****************
+	 Bable synset annotated for w1 : bn:00050287n with terms tennis, pallacorda, tennis sull'erba
+	 Bable synset annotated for w2 : bn:00074061n with terms statistica, analisi statistica
+	 Head Score: 1.0
+	 Cosin Score: 2.6417
+	 Bable synset calculated for w1 : bn:00495691n with terms ['Tennis_(1984_video_game)', 'Tennis', 'Tennis_(Game_Boy)', 'Tennis_(NES)']
+	 Bable synset calculated for w2 : bn:03399058n with terms ['Statistic_(role-playing_games)', 'stat', 'Statistic', 'attribute', 'attribute']
+**************** Words: w1 = Bolzano w2 = teorema ****************
+	 Bable synset annotated for w1 : bn:00011913n with terms Provincia Autonoma di Bolzano
+	 Bable synset annotated for w2 : bn:00076831n with terms teorema
+	 Head Score: 0.5
+	 Cosin Score: 2.2812
+	 Bable synset calculated for w1 : bn:13890341n with terms ['Bolzano_Bellunese', 'Bolzano_Bellunese']
+	 Bable synset calculated for w2 : bn:01145346n with terms ['Teorema_(film)', 'Teorema', 'Teorema', 'Theorem_(film)', 'Theorem_(movie)']
+**************** Words: w1 = altitudine w2 = conversione ****************
+	 Bable synset annotated for w1 : bn:00003142n with terms altitudine, quota
+	 Bable synset annotated for w2 : bn:00017678n with terms conversione, transizione
+	 Head Score: 2.0
+	 Cosin Score: 2.8017
+	 Bable synset calculated for w1 : bn:00003143n with terms ['altitude', 'altitude_(triangle)', 'altitude', 'altitude', 'Altitude_of_a_triangle']
+	 Bable synset calculated for w2 : bn:00077989n with terms ['transformation', 'transformation_(function)', 'coordinate_transformation', 'coordinates_transformation', 'transformation']
+**************** Words: w1 = barca w2 = albero ****************
+	 Bable synset annotated for w1 : bn:00011674n with terms barca, imbarcazione, battello
+	 Bable synset annotated for w2 : bn:00078131n with terms albero, albore, arbore
+	 Head Score: 1.5
+	 Cosin Score: 3.7115
+	 Bable synset calculated for w1 : bn:00008596n with terms ['bark', 'barque', 'barque', 'barc', 'bark']
+	 Bable synset calculated for w2 : bn:00053706n with terms ['mast', 'mast_(sailing)', 'spar', 'mast', 'mast']
+**************** Words: w1 = trono w2 = spada ****************
+	 Bable synset annotated for w1 : bn:00077086n with terms trono, truono
+	 Bable synset annotated for w2 : bn:00011081n with terms spada, acciaro
+	 Head Score: 2.5
+	 Cosin Score: 2.3564
+	 Bable synset calculated for w1 : bn:00077086n with terms ['throne', 'throne', 'throne', 'throne', 'Musnaid']
+	 Bable synset calculated for w2 : bn:03829974n with terms ['Migration_Period_sword', 'Migration_Period_sword', 'Germanic_sword', 'Gold-hilted_spatha', 'Merovingian_sword']
+**************** Words: w1 = cotone w2 = maglione ****************
+	 Bable synset annotated for w1 : bn:00023072n with terms cotone
+	 Bable synset annotated for w2 : bn:00048144n with terms maglietta, t-shirt, golf, maglione
+	 Head Score: 2.0
+	 Cosin Score: 2.5014
+	 Bable synset calculated for w1 : bn:00023073n with terms ['cotton', 'cotton', 'cotton_fiber', 'cotton_fibre']
+	 Bable synset calculated for w2 : bn:00048570n with terms ['sweater', 'jumper', 'sweater', 'pullover', 'sweater']
+**************** Words: w1 = ciliegia w2 = fragola ****************
+	 Bable synset annotated for w1 : bn:00018175n with terms ciliegio, Ciliegia
+	 Bable synset annotated for w2 : bn:00074577n with terms fragola, fraga
+	 Head Score: 3.2
+	 Cosin Score: 3.6292
+	 Bable synset calculated for w1 : bn:00018175n with terms ['cherry', 'cherry_tree', 'cherry', 'cherry', 'cherry']
+	 Bable synset calculated for w2 : bn:00074577n with terms ['strawberry', 'strawberry', 'Fragaria_×ananassa', 'garden_strawberry', 'strawberry_juice']
+**************** Words: w1 = Islam w2 = Corano ****************
+	 Bable synset annotated for w1 : bn:00047600n with terms islam, islamismo, Islam politico
+	 Bable synset annotated for w2 : bn:00002370n with terms Corano
+	 Head Score: 2.5
+	 Cosin Score: 3.5373
+	 Bable synset calculated for w1 : bn:00047600n with terms ['Islam', 'Islamism', 'Mohammedanism', 'Muhammadanism', 'Muslimism']
+	 Bable synset calculated for w2 : bn:00002370n with terms ['Koran', 'Quran', "al-Qur'an", 'Book', 'Quran']
+**************** Words: w1 = Neanderthal w2 = sport ****************
+	 Bable synset annotated for w1 :  bn:00044581n  with terms sport, atletica
+	 Bable synset annotated for w2 : bn:00006759n with terms Uomo di Neandertal, uomo di Neanderthal
+	 Head Score: 0.8
+	 Cosin Score: 2.0137
+	 Bable synset calculated for w1 : bn:00044581n with terms ['Neandertal_man', 'Neanderthal_man', 'Neandertal', 'Neanderthal', 'Homo_sapiens_neanderthalensis']
+	 Bable synset calculated for w2 : bn:00215325n with terms ['Sky_Polarization_Observatory', 'Sky_Polarization_Observatory']
+**************** Words: w1 = nepotismo w2 = re ****************
+	 Bable synset annotated for w1 : bn:00057307n with terms nepotismo, baronismo
+	 Bable synset annotated for w2 : bn:00024097n with terms monarca, re, sovrano
+	 Head Score: 1.0
+	 Cosin Score: 2.6159
+	 Bable synset calculated for w1 : bn:00057307n with terms ['nepotism', 'nepotism', 'nepotism', 'nepotism', 'nepotism']
+	 Bable synset calculated for w2 : bn:00024097n with terms ['sovereign', 'crowned_head', 'monarch', 'monarch', 'king']
+**************** Words: w1 = personaggio w2 = persona ****************
+	 Bable synset annotated for w1 :  with terms bn:00046516n
+	 Bable synset annotated for w2 : bn:00017746n with terms Personaggio immaginario, personaggio   individuo, persona, mortale
+	 Head Score: 2.5
+	 Cosin Score: 4.0
+	 Bable synset calculated for w1 : bn:00017749n with terms ['character', 'role', 'theatrical_role', 'part', 'persona']
+	 Bable synset calculated for w2 : bn:00017749n with terms ['character', 'role', 'theatrical_role', 'part', 'persona']
+**************** Words: w1 = cisterna w2 = vagone ****************
+	 Bable synset annotated for w1 : bn:00019258n with terms cisterna, Serbatoio, bottino
+	 Bable synset annotated for w2 : bn:00015785n with terms Vagone, automotrice, Vagone ferroviario
+	 Head Score: 3.0
+	 Cosin Score: 2.1509
+	 Bable synset calculated for w1 : bn:00074452n with terms ['tank', 'storage_tank', 'storage_tank', 'storage_tank', 'tank']
+	 Bable synset calculated for w2 : bn:00015785n with terms ['car', 'railcar', 'railway_car', 'railroad_car', 'railcar']
+**************** Words: w1 = Mercurio w2 = Giove ****************
+	 Bable synset annotated for w1 : bn:00054426n with terms Mercurio
+	 Bable synset annotated for w2 : bn:00048646n with terms Giove
+	 Head Score: 3.5
+	 Cosin Score: 4.0
+	 Bable synset calculated for w1 : bn:00063119n with terms ['Pluto', 'Moon', 'Planets_in_astrology', 'Pluto_(astrology)']
+	 Bable synset calculated for w2 : bn:00063119n with terms ['Pluto', 'Moon', 'Planets_in_astrology', 'Pluto_(astrology)']
+**************** Words: w1 = bronchite w2 = acetaminofene ****************
+	 Bable synset annotated for w1 : bn:00013313n with terms bronchite
+	 Bable synset annotated for w2 : bn:00000834n with terms Paracetamolo, paracetamol
+	 Head Score: 2.5
+	 Cosin Score: 2.7077
+	 Bable synset calculated for w1 : bn:00013313n with terms ['bronchitis', 'bronchitis', 'acute_Bronchitis', 'acute_bronchitis_and_bronchiolitis', 'acute_bronchitis_and_bronchiolitis']
+	 Bable synset calculated for w2 : bn:00000834n with terms ['acetaminophen', 'Datril', 'Tylenol', 'Panadol', 'Phenaphen']
+**************** Words: w1 = sangue w2 = corpo ****************
+	 Bable synset annotated for w1 : bn:00011346n with terms sangue, Blood
+	 Bable synset annotated for w2 : bn:00014512n with terms cadavere, corpo
+	 Head Score: 2.5
+	 Cosin Score: 2.8506
+	 Bable synset calculated for w1 : bn:00011346n with terms ['blood', 'blood', 'blood', 'blood', 'blood']
+	 Bable synset calculated for w2 : bn:00011748n with terms ['torso', 'trunk', 'body', 'torso', 'torso']
+**************** Words: w1 = islamofobia w2 = ISIS ****************
+	 Bable synset annotated for w1 : bn:00047611n with terms islamofobia, islamofobo
+	 Bable synset annotated for w2 : bn:15487402n with terms Stato Islamico, IS, ISIL, ISIS
+	 Head Score: 2.5
+	 Cosin Score: 2.8823
+	 Bable synset calculated for w1 : bn:00047611n with terms ['Islamophobia', 'Islamophobia', 'Islamophobia', 'Islamophobe', 'Islamophobia']
+	 Bable synset calculated for w2 : bn:15487402n with terms ['Islamic_State_of_Iraq_and_the_Levant', 'Daesh', 'IS', 'ISIL', 'ISIS']
+**************** Words: w1 = uncinetto w2 = uniforme ****************
+	 Bable synset annotated for w1 : bn:00023884n with terms uncinetto, crochet, croscè
+	 Bable synset annotated for w2 : bn:14044808n with terms Divisa
+	 Head Score: 1.5
+	 Cosin Score: 2.4235
+	 Bable synset calculated for w1 : bn:00023885n with terms ['crochet_needle', 'crochet_hook', 'crochet_hook', 'Crochet_hook', 'Crochet_hooks']
+	 Bable synset calculated for w2 : bn:00042407n with terms ['habit', 'riding_habit', 'riding_habit', 'riding_habit', 'habit']
+**************** Words: w1 = Hadoop w2 = touchscreen ****************
+	 Bable synset annotated for w1 : bn:03415734n with terms Apache Hadoop, Hadoop
+	 Bable synset annotated for w2 : bn:00077733n with terms Touchscreen, Schermo tattile
+	 Head Score: 2.0
+	 Cosin Score: 1.8508
+	 Bable synset calculated for w1 : bn:03415734n with terms ['Apache_Hadoop', 'Apache_Hadoop', 'Amazon_Elastic_MapReduce', 'Hadoop', 'Hadoop_Distributed_File_System']
+	 Bable synset calculated for w2 : bn:00077733n with terms ['touch_screen', 'touchscreen', 'touchscreen', 'touchscreen', 'touchscreen']
+**************** Words: w1 = combustibile fossile w2 = fossile ****************
+	 Bable synset annotated for w1 : bn:00036027n with terms fossile, Fossili
+	 Bable synset annotated for w2 : bn:00036026n with terms Combustibili fossili, combustibile fossile
+	 Head Score: 1.5
+	 Cosin Score: 1.9396
+	 Bable synset calculated for w1 : bn:00036027n with terms ['fossil_fuel', 'fossil_fuel', 'fossil_fuel', 'fossil_fuel', 'Economic_effects_of_fossil_fuel_subsidies']
+	 Bable synset calculated for w2 : bn:00036026n with terms ['fossil', 'fossil', 'fossil', 'zoolite', 'fossil']
+**************** Words: w1 = mutante w2 = sociobiologia ****************
+	 Bable synset annotated for w1 : bn:00056530n with terms mutante, mutazione
+	 Bable synset annotated for w2 : bn:00072570n with terms sociobiologia
+	 Head Score: 1.5
+	 Cosin Score: 2.7799
+	 Bable synset calculated for w1 : bn:00018894n with terms ['mutation', 'genetic_mutation', 'chromosomal_mutation', 'mutation', 'mutation']
+	 Bable synset calculated for w2 : bn:00072570n with terms ['sociobiology', 'sociobiology', 'Sociobiology', 'sociobiology', 'sociobiology']
+**************** Words: w1 = sorella w2 = fratello ****************
+	 Bable synset annotated for w1 : bn:00071400n with terms fratelli, fratello, sorella
+	 Bable synset annotated for w2 : bn:00071400n with terms fratelli, fratello, sorella
+	 Head Score: 3.8
+	 Cosin Score: 4.0
+	 Bable synset calculated for w1 : bn:00071400n with terms ['sibling', 'sib', 'sibling', 'sibling', 'siblings']
+	 Bable synset calculated for w2 : bn:00071400n with terms ['sibling', 'sib', 'sibling', 'sibling', 'siblings']
+**************** Words: w1 = matita w2 = storia ****************
+	 Bable synset annotated for w1 : bn:00061334n with terms matita, lapis
+	 Bable synset annotated for w2 : bn:00044268n with terms storia
+	 Head Score: 2.5
+	 Cosin Score: 2.7886
+	 Bable synset calculated for w1 : bn:02272538n with terms ['pencil_(mathematics)', 'pencil', 'Sheaf_of_planes', 'pencil', 'Pencil_of_curves']
+	 Bable synset calculated for w2 : bn:00044269n with terms ['history']
+**************** Words: w1 = eczema w2 = dermatite ****************
+	 Bable synset annotated for w1 : bn:00029715n with terms eczema, Eczemi
+	 Bable synset annotated for w2 : bn:00026454n with terms dermatite, dermatosi
+	 Head Score: 2.5
+	 Cosin Score: 3.8849
+	 Bable synset calculated for w1 : bn:00029715n with terms ['eczema', 'Contact_dermatitis:_metals', 'Contact_dermatitis_and_other_eczema', 'Contact_dermatitis_and_other_eczema,_unspecified_cause', 'Contact_dermatitis_and_other_eczema_due_to_detergents']
+	 Bable synset calculated for w2 : bn:00026454n with terms ['dermatitis', 'dermatitis', 'dermatitis', 'eczema', 'skin_inflammation']
+**************** Words: w1 = imperatore w2 = governatore ****************
+	 Bable synset annotated for w1 : bn:00030591n with terms imperatore, cesare
+	 Bable synset annotated for w2 : bn:00041204n with terms governatore, governante
+	 Head Score: 3.5
+	 Cosin Score: 3.6
+	 Bable synset calculated for w1 : bn:00014550n with terms ['Caesar', 'Julius_Caesar', 'Gaius_Julius_Caesar', 'Julius_Caesar', 'Gaius_Julius_Caesar_(Rome_character)']
+	 Bable synset calculated for w2 : bn:01550599n with terms ['Roman_governor', 'Rector_provinciae', 'Roman_governor', 'Consular_prefect', 'Gubernator']
+**************** Words: w1 = corona w2 = chiave ****************
+	 Bable synset annotated for w1 : bn:00024069n with terms corona
+	 Bable synset annotated for w2 : bn:00019155n with terms chiave
+	 Head Score: 2.0
+	 Cosin Score: 3.445
+	 Bable synset calculated for w1 : bn:00034102n with terms ['fermata', 'fermata', 'fermata', 'hold', 'pause']
+	 Bable synset calculated for w2 : bn:00019683n with terms ['clef', 'clef', 'clef', 'treble_clef', 'bass']
+**************** Words: w1 = algebra w2 = operazione ****************
+	 Bable synset annotated for w1 : bn:00002676n with terms algebra
+	 Bable synset annotated for w2 : bn:05668966n with terms operazione, operazione chirurgica, chirurgia
+	 Head Score: 3.0
+	 Cosin Score: 3.3454
+	 Bable synset calculated for w1 : bn:03325213n with terms ['algebra', 'algebra', 'algebra_(module)', 'algebra_(ring_theory)']
+	 Bable synset calculated for w2 : bn:00053826n with terms ['mathematical_process', 'mathematical_operation', 'operation', 'operation_(mathematics)', 'operation']
+**************** Words: w1 = pistone w2 = motore ****************
+	 Bable synset annotated for w1 : bn:00062630n with terms pistone, stantuffo
+	 Bable synset annotated for w2 : bn:00030850n with terms motore, Propulsore
+	 Head Score: 3.0
+	 Cosin Score: 3.9232
+	 Bable synset calculated for w1 : bn:00062630n with terms ['piston', 'plunger', 'piston', 'piston', 'piston']
+	 Bable synset calculated for w2 : bn:00030850n with terms ['engine', 'engine', 'engine', 'motor', 'engine']
+**************** Words: w1 = borsa di studio w2 = retta ****************
+	 Bable synset annotated for w1 : bn:00069614n with terms borsa di studio, Borse di studio
+	 Bable synset annotated for w2 : bn:00078557n with terms retta, tassa d'iscrizione, tassa scolastica
+	 Head Score: 3.5
+	 Cosin Score: 3.5722
+	 Bable synset calculated for w1 : bn:00014060n with terms ['bursary', 'bursary', 'Bursary', 'bursary', 'Bursaries']
+	 Bable synset calculated for w2 : bn:00078557n with terms ['tuition', 'tuition_fee', 'tuition_payments', 'tuition', 'tuition_payments']
+**************** Words: w1 = libro w2 = manoscritto ****************
+	 Bable synset annotated for w1 : bn:00012059n with terms libro
+	 Bable synset annotated for w2 : bn:00044453n with terms manoscritto, manoscritti
+	 Head Score: 3.0
+	 Cosin Score: 3.3161
+	 Bable synset calculated for w1 : bn:00012059n with terms ['book', 'book', 'book', 'books', 'book']
+	 Bable synset calculated for w2 : bn:00044453n with terms ['manuscript', 'holograph', 'holograph', 'manuscript', 'autograph']
+**************** Words: w1 = lantana w2 = bocca di leone ****************
+	 Bable synset annotated for w1 : bn:00049943n with terms lantana
+	 Bable synset annotated for w2 : bn:00072399n with terms bocca di leone
+	 Head Score: 1.0
+	 Cosin Score: 3.4513
+	 Bable synset calculated for w1 : bn:00049943n with terms ['lantana', 'lantana', 'Lantana', 'Shrub_verbena']
+	 Bable synset calculated for w2 : bn:00004738n with terms ['Mediterranean_snapdragon', 'Antirrhinum_majus', 'Antirrhinum_majus', 'Antirrhinum_majus', 'A._majus']
+**************** Words: w1 = buco nero w2 = vuoto ****************
+	 Bable synset annotated for w1 : bn:00010920n with terms buco nero
+	 Bable synset annotated for w2 : bn:03321000n with terms Vuoto, vuoto cosmico
+	 Head Score: 2.5
+	 Cosin Score: 3.6271
+	 Bable synset calculated for w1 : bn:00010920n with terms ['black_hole', 'black_hole', 'black_hole', 'Black_hole', 'black_hole']
+	 Bable synset calculated for w2 : bn:03321000n with terms ['Void_(astronomy)', 'void', 'Cosmic_nothingness', 'Cosmic_Void', 'Cosmic_void']
+**************** Words: w1 = Impero Persiano w2 = Ciro ****************
+	 Bable synset annotated for w1 : bn:00061704n with terms Impero Persiano
+	 Bable synset annotated for w2 : bn:03352442n with terms Ciro
+	 Head Score: 2.0
+	 Cosin Score: 3.1228
+	 Bable synset calculated for w1 : bn:00061704n with terms ['Persia', 'Persian_Empire', 'Persian_Empire', 'Persian_Empire', 'Persian_Empire']
+	 Bable synset calculated for w2 : bn:03352442n with terms ['Kyros_of_Constantinople', 'Kyros_of_Constantinople', 'Cyrus_of_Constantinople', 'Ecumenical_Patriarch_Kyros_of_Constantinople', 'Ecumenical_patriarch_kyros_of_constantinople']
+**************** Words: w1 = editoriale w2 = notizia ****************
+	 Bable synset annotated for w1 : bn:00020825n with terms giornale, rivista, giornale della sera
+	 Bable synset annotated for w2 : bn:00057546n with terms notizia, notizie, cronaca
+	 Head Score: 2.5
+	 Cosin Score: 3.7277
+	 Bable synset calculated for w1 : bn:00020825n with terms ['column', 'editorial', 'newspaper_column', 'editorial', 'column_(periodical)']
+	 Bable synset calculated for w2 : bn:00057563n with terms ['newspaper', 'paper', 'newspaper', 'newspaper', 'daily']
+**************** Words: w1 = decorazione w2 = busta ****************
+	 Bable synset annotated for w1 : bn:00025766n with terms medaglia, decorazione, medaglione
+	 Bable synset annotated for w2 : bn:03384143n with terms busta
+	 Head Score: 2.0
+	 Cosin Score: 2.3312
+	 Bable synset calculated for w1 : bn:00025767n with terms ['decoration']
+	 Bable synset calculated for w2 : bn:02096953n with terms ['Envelope_(waves)', 'envelope', 'wave_envelope', 'Envelope_curve', 'Wave_envelope']
+**************** Words: w1 = squalo balena w2 = aragosta ****************
+	 Bable synset annotated for w1 : bn:00067621n with terms squalo balena
+	 Bable synset annotated for w2 : bn:00051731n with terms aragosta, astice
+	 Head Score: 3.0
+	 Cosin Score: 3.2776
+	 Bable synset calculated for w1 : bn:00067621n with terms ['whale_shark', 'Rhincodon_typus', 'whale_shark', 'Rhincodon_typus', 'whale_shark']
+	 Bable synset calculated for w2 : bn:03823397n with terms ['Palinurus_elephas', 'Palinurus_elephas', 'Common_spiny_lobster', 'European_spiny_lobster', 'Mediterranean_lobster']
+**************** Words: w1 = mais w2 = granturco ****************
+	 Bable synset annotated for w1 : bn:00022678n with terms mais, granoturco
+	 Bable synset annotated for w2 : bn:00022678n with terms mais, granoturco
+	 Head Score: 4.0
+	 Cosin Score: 4.0
+	 Bable synset calculated for w1 : bn:00022678n with terms ['corn', 'maize', 'Indian_corn', 'Zea_mays', 'maize']
+	 Bable synset calculated for w2 : bn:00022678n with terms ['corn', 'maize', 'Indian_corn', 'Zea_mays', 'maize']
+************** Accuracy ************
+	- on couple 26.6667
+	- on term 38.3333

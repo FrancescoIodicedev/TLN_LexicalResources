@@ -1,0 +1,626 @@
+student: Iodice
+	ID: 1633	frame: Board_vehicle
+	ID:  631	frame: Endangering
+	ID:  121	frame: Bail_decision
+	ID:  796	frame: Communicate_categorization
+	ID:  196	frame: Locale_by_use
+****************************************************************************************************
+Frame Name : dict_keys(['Board_vehicle'])
+For the element: |Board_vehicle| :
+	sense result : |Synset('vehicle.n.01')|
+	sense target: |Synset('vehicle.n.01')| 
+Result:  OK
+For the element: |Traveller| :
+	sense result : |Synset('traveler.n.01')|
+	sense target: |Synset('traveler.n.01')| 
+Result:  OK
+For the element: |Vehicle| :
+	sense result : |Synset('vehicle.n.01')|
+	sense target: |Synset('vehicle.n.01')| 
+Result:  OK
+For the element: |Source| :
+	sense result : |Synset('beginning.n.04')|
+	sense target: |Synset('beginning.n.04')| 
+Result:  OK
+For the element: |Manner| :
+	sense result : |Synset('manner.n.01')|
+	sense target: |Synset('manner.n.01')| 
+Result:  OK
+For the element: |Path| :
+	sense result : |Synset('way.n.05')|
+	sense target: |Synset('path.n.04')| 
+FAIL
+For the element: |Duration_of_final_state| :
+	sense result : |Synset('duration.n.01')|
+	sense target: |Synset('duration.n.01')| 
+Result:  OK
+For the element: |Depictive| :
+	sense result : |Synset('delineative.s.01')|
+	sense target: |Synset('delineative.s.01')| 
+Result:  OK
+For the element: |Time| :
+	sense result : |Synset('time.n.01')|
+	sense target: |Synset('time.n.01')| 
+Result:  OK
+For the element: |Cotheme| :
+	sense result : |None|
+	sense target: |NOT_FOUND| 
+FAIL
+For the element: |Purpose| :
+	sense result : |Synset('purpose.n.01')|
+	sense target: |Synset('purpose.n.01')| 
+Result:  OK
+For the element: |Place| :
+	sense result : |Synset('put.v.01')|
+	sense target: |Synset('topographic_point.n.01')| 
+FAIL
+For the element: |Circumstances| :
+	sense result : |Synset('circumstance.n.01')|
+	sense target: |Synset('circumstance.n.01')| 
+Result:  OK
+For the element: |board.v| :
+	sense result : |Synset('board.n.02')|
+	sense target: |Synset('board.v.01')| 
+FAIL
+For the element: |get.v| :
+	sense result : |Synset('become.v.01')|
+	sense target: |Synset('get.v.01')| 
+FAIL
+For the element: |embark.v| :
+	sense result : |Synset('embark.v.01')|
+	sense target: |Synset('embark.v.01')| 
+Result:  OK
+For the element: |emplane.v| :
+	sense result : |Synset('emplane.v.01')|
+	sense target: |Synset('emplane.v.01')| 
+Result:  OK
+For the element: |entrain.v| :
+	sense result : |Synset('entrain.v.01')|
+	sense target: |Synset('entrain.v.01')| 
+Result:  OK
+For the element: |mount.v| :
+	sense result : |Synset('climb.n.03')|
+	sense target: |Synset('mount.v.01')| 
+FAIL
+For the element: |hop.v| :
+	sense result : |Synset('hop.v.03')|
+	sense target: |Synset('hop.v.03')| 
+Result:  OK
+For the element: |embarkation.n| :
+	sense result : |Synset('boarding.n.01')|
+	sense target: |Synset('boarding.n.01')| 
+Result:  OK
+For the element: |embarkment.n| :
+	sense result : |Synset('boarding.n.01')|
+	sense target: |Synset('boarding.n.01')| 
+Result:  OK
+For the element: |embus.v| :
+	sense result : |None|
+	sense target: |NOT_FOUND| 
+FAIL
+****************************************************************************************************
+Frame Name : dict_keys(['Endangering'])
+For the element: |Endangering| :
+	sense result : |Synset('endanger.v.01')|
+	sense target: |Synset('endanger.v.01')| 
+Result:  OK
+For the element: |Cause| :
+	sense result : |Synset('causal_agent.n.01')|
+	sense target: |Synset('causal_agent.n.01')| 
+Result:  OK
+For the element: |Valued_entity| :
+	sense result : |Synset('entity.n.01')|
+	sense target: |Synset('entity.n.01')| 
+Result:  OK
+For the element: |Agent| :
+	sense result : |Synset('agent.n.01')|
+	sense target: |Synset('agent.n.01')| 
+Result:  OK
+For the element: |Endangering_act| :
+	sense result : |Synset('queer.v.02')|
+	sense target: |Synset('queer.v.02')| 
+Result:  OK
+For the element: |Manner| :
+	sense result : |Synset('manner.n.01')|
+	sense target: |Synset('manner.n.01')| 
+Result:  OK
+For the element: |Place| :
+	sense result : |Synset('put.v.01')|
+	sense target: |Synset('place.n.02')| 
+FAIL
+For the element: |Time| :
+	sense result : |Synset('time.n.03')|
+	sense target: |Synset('time.n.01')| 
+FAIL
+For the element: |imperil.v| :
+	sense result : |Synset('endanger.v.01')|
+	sense target: |Synset('endanger.v.01')| 
+Result:  OK
+For the element: |endanger.v| :
+	sense result : |Synset('queer.v.02')|
+	sense target: |Synset('queer.v.02')| 
+Result:  OK
+For the element: |endangerment.n| :
+	sense result : |Synset('hazard.n.01')|
+	sense target: |Synset('hazard.n.01')| 
+Result:  OK
+For the element: |jeopardise.v| :
+	sense result : |Synset('endanger.v.01')|
+	sense target: |Synset('endanger.v.01')| 
+Result:  OK
+****************************************************************************************************
+Frame Name : dict_keys(['Bail_decision'])
+For the element: |Bail_decision| :
+	sense result : |Synset('decision.n.01')|
+	sense target: |Synset('decision.n.01')| 
+Result:  OK
+For the element: |Accused| :
+	sense result : |Synset('accused.n.01')|
+	sense target: |Synset('accused.n.01')| 
+Result:  OK
+For the element: |Judge| :
+	sense result : |Synset('estimate.v.01')|
+	sense target: |Synset('judge.n.01')| 
+FAIL
+For the element: |Status| :
+	sense result : |Synset('condition.n.01')|
+	sense target: |Synset('status.n.01')| 
+FAIL
+For the element: |Time| :
+	sense result : |Synset('time.n.03')|
+	sense target: |Synset('time.n.01')| 
+FAIL
+For the element: |Place| :
+	sense result : |Synset('put.v.01')|
+	sense target: |Synset('topographic_point.n.01')| 
+FAIL
+For the element: |Manner| :
+	sense result : |Synset('manner.n.01')|
+	sense target: |Synset('manner.n.01')| 
+Result:  OK
+For the element: |Means| :
+	sense result : |Synset('intend.v.01')|
+	sense target: |Synset('means.n.01')| 
+FAIL
+For the element: |Purpose| :
+	sense result : |Synset('purpose.n.01')|
+	sense target: |Synset('purpose.n.01')| 
+Result:  OK
+For the element: |set.v| :
+	sense result : |Synset('determine.v.03')|
+	sense target: |Synset('determine.v.03')| 
+Result:  OK
+For the element: |fix.v| :
+	sense result : |Synset('localization.n.01')|
+	sense target: |Synset('fix.v.06')| 
+FAIL
+For the element: |order.v| :
+	sense result : |Synset('decree.n.01')|
+	sense target: |Synset('order.v.03')| 
+FAIL
+For the element: |bail.n| :
+	sense result : |Synset('bail.n.01')|
+	sense target: |Synset('bail.n.01')| 
+Result:  OK
+For the element: |bond.n| :
+	sense result : |Synset('bond.n.02')|
+	sense target: |Synset('bail.n.01')| 
+FAIL
+****************************************************************************************************
+Frame Name : dict_keys(['Communicate_categorization'])
+For the element: |Communicate_categorization| :
+	sense result : |Synset('communicate.v.02')|
+	sense target: |Synset('classification.n.02')| 
+FAIL
+For the element: |Speaker| :
+	sense result : |Synset('speaker.n.01')|
+	sense target: |Synset('speaker.n.01')| 
+Result:  OK
+For the element: |Category| :
+	sense result : |Synset('class.n.01')|
+	sense target: |Synset('class.n.01')| 
+Result:  OK
+For the element: |Item| :
+	sense result : |Synset('item.n.03')|
+	sense target: |Synset('item.n.01| 
+FAIL
+For the element: |Means| :
+	sense result : |Synset('means.n.01')|
+	sense target: |Synset('means.n.01')| 
+Result:  OK
+For the element: |Medium| :
+	sense result : |Synset('medium.n.03')|
+	sense target: |Synset('medium.n.03')| 
+Result:  OK
+For the element: |Time| :
+	sense result : |Synset('time.n.05')|
+	sense target: |Synset('time.n.01')| 
+FAIL
+For the element: |Place| :
+	sense result : |Synset('topographic_point.n.01')|
+	sense target: |Synset('topographic_point.n.01')| 
+Result:  OK
+For the element: |Circumstances| :
+	sense result : |Synset('circumstance.n.01')|
+	sense target: |Synset('circumstance.n.01')| 
+Result:  OK
+For the element: |Criteria| :
+	sense result : |Synset('standard.n.01')|
+	sense target: |Synset('criterion.n.02')| 
+FAIL
+For the element: |Manner| :
+	sense result : |Synset('manner.n.01')|
+	sense target: |Manner| 
+FAIL
+For the element: |Duration| :
+	sense result : |Synset('duration.n.01')|
+	sense target: |Synset('duration.n.01')| 
+Result:  OK
+For the element: |characterize.v| :
+	sense result : |Synset('qualify.v.06')|
+	sense target: |Synset('characterize.v.02')| 
+FAIL
+For the element: |depict.v| :
+	sense result : |Synset('picture.v.02')|
+	sense target: |Synset('picture.v.02')| 
+Result:  OK
+For the element: |depiction.n| :
+	sense result : |Synset('depicting.n.01')|
+	sense target: |Synset('depicting.n.01')| 
+Result:  OK
+For the element: |describe.v| :
+	sense result : |Synset('report.v.01')|
+	sense target: |Synset('describe.v.01')| 
+FAIL
+For the element: |description.n| :
+	sense result : |Synset('description.n.01')|
+	sense target: |Synset('definition.n.01'),| 
+FAIL
+For the element: |portray.v| :
+	sense result : |Synset('portray.v.01')|
+	sense target: |Synset('portray.v.01')| 
+Result:  OK
+For the element: |represent.v| :
+	sense result : |Synset('represent.v.05')|
+	sense target: |Synset('represent.v.01')| 
+FAIL
+For the element: |representation.n| :
+	sense result : |Synset('representation.n.02')|
+	sense target: |Synset('representation.n.03')| 
+FAIL
+For the element: |define.v| :
+	sense result : |Synset('define.v.02')|
+	sense target: |Synset('define.v.02')| 
+Result:  OK
+For the element: |definition.n| :
+	sense result : |Synset('definition.n.01')|
+	sense target: |Synset('definition.n.01')| 
+Result:  OK
+For the element: |redefine.v| :
+	sense result : |Synset('redefine.v.01')|
+	sense target: |Synset('redefine.v.01')| 
+Result:  OK
+For the element: |redefinition.n| :
+	sense result : |Synset('redefinition.n.01')|
+	sense target: |Synset('redefinition.n.01')| 
+Result:  OK
+For the element: |characterization.n| :
+	sense result : |Synset('characterization.n.02')|
+	sense target: |Synset('characterization.n.02')| 
+Result:  OK
+For the element: |treat.v| :
+	sense result : |Synset('treat.v.08')|
+	sense target: |Synset('treat.v.01')| 
+FAIL
+For the element: |paint.v| :
+	sense result : |Synset('paint.n.01')|
+	sense target: |Synset('paint.v.02')| 
+FAIL
+For the element: |cast.v| :
+	sense result : |Synset('cast.n.01')|
+	sense target: |Synset('cast.v.01')| 
+FAIL
+For the element: |make out to be.v| :
+	sense result : |Synset('make.v.02')|
+	sense target: |Synset('make.v.02')| 
+Result:  OK
+****************************************************************************************************
+Frame Name : dict_keys(['Locale_by_use'])
+For the element: |Locale_by_use| :
+	sense result : |Synset('venue.n.01')|
+	sense target: |Synset('venue.n.01')| 
+Result:  OK
+For the element: |Constituent_parts| :
+	sense result : |Synset('part.n.01')|
+	sense target: |Synset('part.n.01')| 
+Result:  OK
+For the element: |Container_possessor| :
+	sense result : |Synset('owner.n.02')|
+	sense target: |Synset('owner.n.02')| 
+Result:  OK
+For the element: |Formational_cause| :
+	sense result : |Synset('campaign.n.02')|
+	sense target: |Synset('cause.n.01')| 
+FAIL
+For the element: |Locale| :
+	sense result : |Synset('venue.n.01')|
+	sense target: |Synset('venue.n.01')| 
+Result:  OK
+For the element: |Name| :
+	sense result : |Synset('name.n.01')|
+	sense target: |Synset('name.n.01')| 
+Result:  OK
+For the element: |Relative_location| :
+	sense result : |Synset('location.n.01')|
+	sense target: |Synset('location.n.01')| 
+Result:  OK
+For the element: |Use| :
+	sense result : |Synset('use.v.01')|
+	sense target: |Synset('use.v.01')| 
+Result:  OK
+For the element: |Descriptor| :
+	sense result : |Synset('form.n.01')|
+	sense target: |Synset('descriptor.n.02')| 
+FAIL
+For the element: |Circumstances| :
+	sense result : |Synset('circumstance.n.01')|
+	sense target: |Synset('circumstance.n.01')| 
+Result:  OK
+For the element: |farm.n| :
+	sense result : |Synset('farm.n.01')|
+	sense target: |Synset('farm.n.01')| 
+Result:  OK
+For the element: |hedge.n| :
+	sense result : |Synset('hedge.n.01')|
+	sense target: |Synset('hedge.n.01')| 
+Result:  OK
+For the element: |mine.n| :
+	sense result : |Synset('mine.n.01')|
+	sense target: |Synset('mine.n.01')| 
+Result:  OK
+For the element: |field.n| :
+	sense result : |Synset('field.n.01')|
+	sense target: |Synset('field.n.01')| 
+Result:  OK
+For the element: |airfield.n| :
+	sense result : |Synset('airfield.n.01')|
+	sense target: |Synset('airfield.n.01')| 
+Result:  OK
+For the element: |cemetery.n| :
+	sense result : |Synset('cemetery.n.01')|
+	sense target: |Synset('cemetery.n.01')| 
+Result:  OK
+For the element: |rural.a| :
+	sense result : |Synset('rural.a.02')|
+	sense target: |Synset('rural.a.02')| 
+Result:  OK
+For the element: |country.n| :
+	sense result : |Synset('area.n.01')|
+	sense target: |Synset('area.n.01')| 
+Result:  OK
+For the element: |countryside.n| :
+	sense result : |Synset('countryside.n.01')|
+	sense target: |Synset('countryside.n.01')| 
+Result:  OK
+For the element: |urban.a| :
+	sense result : |Synset('urban.a.01')|
+	sense target: |Synset('urban.a.01')| 
+Result:  OK
+For the element: |city.n| :
+	sense result : |Synset('city.n.01')|
+	sense target: |Synset('city.n.01')| 
+Result:  OK
+For the element: |village.n| :
+	sense result : |Synset('village.n.01')|
+	sense target: |Synset('village.n.01')| 
+Result:  OK
+For the element: |center.n| :
+	sense result : |Synset('center.n.03')|
+	sense target: |Synset('center.n.03')| 
+Result:  OK
+For the element: |facility.n| :
+	sense result : |Synset('facility.n.01')|
+	sense target: |Synset('facility.n.01')| 
+Result:  OK
+For the element: |complex.n| :
+	sense result : |Synset('building_complex.n.01')|
+	sense target: |Synset('building_complex.n.01')| 
+Result:  OK
+For the element: |installation.n| :
+	sense result : |Synset('facility.n.01')|
+	sense target: |Synset('facility.n.01')| 
+Result:  OK
+For the element: |reactor.n| :
+	sense result : |Synset('nuclear_reactor.n.01')|
+	sense target: |Synset('nuclear_reactor.n.01')| 
+Result:  OK
+For the element: |harbor.n| :
+	sense result : |Synset('seaport.n.01')|
+	sense target: |Synset('seaport.n.01')| 
+Result:  OK
+For the element: |lab.n| :
+	sense result : |Synset('lab.n.01')|
+	sense target: |Synset('lab.n.01')| 
+Result:  OK
+For the element: |plant.n| :
+	sense result : |Synset('plant.n.01')|
+	sense target: |Synset('plant.n.01')| 
+Result:  OK
+For the element: |laboratory.n| :
+	sense result : |Synset('lab.n.01')|
+	sense target: |Synset('lab.n.01')| 
+Result:  OK
+For the element: |depot.n| :
+	sense result : |Synset('storehouse.n.01')|
+	sense target: |Synset('storehouse.n.01')| 
+Result:  OK
+For the element: |site.n| :
+	sense result : |Synset('site.n.01')|
+	sense target: |Synset('site.n.01')| 
+Result:  OK
+For the element: |school.n| :
+	sense result : |Synset('school.n.01')|
+	sense target: |Synset('school.n.01')| 
+Result:  OK
+For the element: |university.n| :
+	sense result : |Synset('university.n.03')|
+	sense target: |Synset('university.n.03')| 
+Result:  OK
+For the element: |factory.n| :
+	sense result : |Synset('factory.n.01')|
+	sense target: |Synset('factory.n.01')| 
+Result:  OK
+For the element: |silo.n| :
+	sense result : |Synset('silo.n.01')|
+	sense target: |Synset('silo.n.02')| 
+FAIL
+For the element: |parking lot.n| :
+	sense result : |Synset('batch.n.02')|
+	sense target: |NOT_FOUND| 
+FAIL
+For the element: |base.n| :
+	sense result : |Synset('base.n.01')|
+	sense target: |Synset('base.n.01')| 
+Result:  OK
+For the element: |settlement.n| :
+	sense result : |Synset('village.n.01')|
+	sense target: |Synset('colony.n.01')| 
+FAIL
+For the element: |courtyard.n| :
+	sense result : |Synset('court.n.10')|
+	sense target: |Synset('court.n.10')| 
+Result:  OK
+For the element: |institute.n| :
+	sense result : |Synset('institute.n.01')|
+	sense target: |Synset('institute.n.01')| 
+Result:  OK
+For the element: |pub.n| :
+	sense result : |Synset('public_house.n.01')|
+	sense target: |Synset('public_house.n.01')| 
+Result:  OK
+For the element: |restaurant.n| :
+	sense result : |Synset('restaurant.n.01')|
+	sense target: |Synset('restaurant.n.01')| 
+Result:  OK
+For the element: |museum.n| :
+	sense result : |Synset('museum.n.01')|
+	sense target: |Synset('museum.n.01')| 
+Result:  OK
+For the element: |gallery.n| :
+	sense result : |Synset('gallery.n.03')|
+	sense target: |"Synset('gallery.n.03')| 
+FAIL
+For the element: |garden.n| :
+	sense result : |Synset('garden.n.01')|
+	sense target: |Synset('garden.n.01')| 
+Result:  OK
+For the element: |park.n| :
+	sense result : |Synset('park.n.01')|
+	sense target: |Synset('park.n.01')| 
+Result:  OK
+For the element: |square.n| :
+	sense result : |Synset('public_square.n.01')|
+	sense target: |Synset('public_square.n.01')| 
+Result:  OK
+For the element: |theater.n| :
+	sense result : |Synset('theater.n.01')|
+	sense target: |Synset('theater.n.01')| 
+Result:  OK
+For the element: |shop.n| :
+	sense result : |Synset('shop.n.01')|
+	sense target: |Synset('shop.n.01')| 
+Result:  OK
+For the element: |college.n| :
+	sense result : |Synset('college.n.01')|
+	sense target: |Synset('college.n.01')| 
+Result:  OK
+For the element: |open space.a| :
+	sense result : |Synset('space.n.01')|
+	sense target: |Synset('space.n.01')| 
+Result:  OK
+For the element: |post office.n| :
+	sense result : |Synset('office.n.01')|
+	sense target: |Synset('office.n.01')| 
+Result:  OK
+For the element: |canal.n| :
+	sense result : |Synset('canal.n.01')|
+	sense target: |Synset('canal.n.01')| 
+Result:  OK
+For the element: |green.n| :
+	sense result : |Synset('park.n.02')|
+	sense target: |Synset('park.n.02')| 
+Result:  OK
+For the element: |park[2].n| :
+	sense result : |None|
+	sense target: |NOT_FOUND| 
+FAIL
+For the element: |ranch.n| :
+	sense result : |Synset('ranch.n.01')|
+	sense target: |Synset('ranch.n.01')| 
+Result:  OK
+For the element: |headquarters.n| :
+	sense result : |Synset('headquarters.n.01')|
+	sense target: |Synset('headquarters.n.01')| 
+Result:  OK
+For the element: |downtown.n| :
+	sense result : |Synset('business_district.n.01')|
+	sense target: |Synset('business_district.n.01')| 
+Result:  OK
+For the element: |campus.n| :
+	sense result : |Synset('campus.n.01')|
+	sense target: |Synset('campus.n.01')| 
+Result:  OK
+For the element: |zoo.n| :
+	sense result : |Synset('menagerie.n.02')|
+	sense target: |Synset('menagerie.n.02')| 
+Result:  OK
+For the element: |port.n| :
+	sense result : |Synset('port.n.01')|
+	sense target: |Synset('port.n.01')| 
+Result:  OK
+For the element: |work.n| :
+	sense result : |Synset('workplace.n.01')|
+	sense target: |Synset('workplace.n.01')| 
+Result:  OK
+For the element: |court.n| :
+	sense result : |Synset('court.n.01')|
+	sense target: |Synset('court.n.01')| 
+Result:  OK
+For the element: |range.n| :
+	sense result : |Synset('scope.n.01')|
+	sense target: |Synset('scope.n.01')| 
+Result:  OK
+For the element: |compound.n| :
+	sense result : |Synset('compound.n.03')|
+	sense target: |Synset('compound.n.01')| 
+FAIL
+For the element: |station.n| :
+	sense result : |Synset('station.n.01')|
+	sense target: |Synset('station.n.01')| 
+Result:  OK
+For the element: |firehouse.n| :
+	sense result : |Synset('fire_station.n.01')|
+	sense target: |Synset('fire_station.n.01')| 
+Result:  OK
+For the element: |bathhouse.n| :
+	sense result : |Synset('bathhouse.n.02')|
+	sense target: |Synset('bathhouse.n.02')| 
+Result:  OK
+For the element: |development.n| :
+	sense result : |Synset('growth.n.01')|
+	sense target: |Synset('development.n.01')| 
+FAIL
+For the element: |plantation.n| :
+	sense result : |Synset('plantation.n.01')|
+	sense target: |Synset('plantation.n.01')| 
+Result:  OK
+For the element: |safe house.n| :
+	sense result : |Synset('family.n.01')|
+	sense target: |Synset('house.n.05')| 
+FAIL
+For the element: |boutique.n| :
+	sense result : |Synset('boutique.n.01')|
+	sense target: |Synset('boutique.n.01')| 
+Result:  OK
+****************************************************************************************************
+Total 152 terms, the correct match are 112, with Accuracy: 74%
