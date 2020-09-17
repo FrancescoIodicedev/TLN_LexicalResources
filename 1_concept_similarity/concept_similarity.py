@@ -82,10 +82,10 @@ def shortest_len_hypernym(sense, hypernym):
 
 
 def max_depth_of_tree():
-    return max(max(len(path) for path in sense.hypernym_paths()) for sense in wn.all_synsets())
+    return max(max(len(path) for path in sense.hypernym_paths()) for sense in wordnet.all_synsets())
 
 
-def min_depth(synset,lcs):
+def min_depth(synset):
     highest_senses, distances = synset.root_hypernyms(), []
 
     for sense in highest_senses:
@@ -113,7 +113,7 @@ def wu_palmer_similarity(w1, w2):
         for s2 in wordnet.synsets(w2):
             lcs = find_LCS(s1, s2)
             if lcs:
-                sim = 2 * min_depth(lcs, lcs) / (min_depth(s1, lcs) + min_depth(s2, lcs))
+                sim = 2 * min_depth(lcs) / (min_depth(s1) + min_depth(s2))
                 if sim > max_sim:
                     max_sim = sim
     return max_sim

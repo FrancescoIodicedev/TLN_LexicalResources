@@ -44,7 +44,7 @@ def lesk_algorithm(word, sentence):
         return best_sense 
 ~~~~
 
-1.`filter_stopword_from_sentence(sentence)` : ritorna una set con i termini presenti nella frase escluse le stopword
+1.`filter_stopword_from_sentence(sentence)` : ritorna una set con i termini presenti nella frase escluse le stopword.
 
 2.`get_wordnet_ctx(sense)`: ritorna un set senza stopword con tutti i termini presenti:
  - negli esempi di `sense`
@@ -54,11 +54,11 @@ def lesk_algorithm(word, sentence):
  - nelle definizioni di tutti gli iperonimi di `sense`.
  - nelle frasi degli esempi di tutti gli iperonimi di `sense`.
 
-3.`intersection(signature, context)`: ritorna l'intersezione tra i 2 insiemi
+3.`intersection(signature, context)`: ritorna l'intersezione tra i 2 insiemi.
 
 ### Result
 
-Il sistema è stato valutato confrontando il senso inferito dall'algoritmo di lesk con quello annotato presente nel corpo SemCor.
+Il sistema è stato valutato confrontando i sensi inferiti dall'algoritmo di lesk con quelli annotati presenti nel corpo SemCor.
 
 Version WSD | Accuracy 
 ------------ | :------------: 

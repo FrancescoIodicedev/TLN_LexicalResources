@@ -176,9 +176,6 @@ def rank(q, v1):
             return index + 1
 
 
-# Input
-# w1 : { w1 : nasari[w1] }
-# w2 : { w2 : nasari[w2] }
 def weighted_overlap(w1, w2):
     O = set(w1.keys()).intersection(w2.keys())
     # O is the set of the overlap dimension between 2 vector

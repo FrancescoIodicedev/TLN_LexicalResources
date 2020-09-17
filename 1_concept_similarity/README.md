@@ -65,9 +65,9 @@ La lista risultante viene invertita e viene restituito il senso in prima posizio
 Nel caso in cui non ci sia antenato comune, la similarità è 0, altrimenti si calcola con la formula sottostante.
 
 ~~~~python
-    sim = 2 * lcs.depth() / (s1.depth() + s2.depth())
+    sim = 2 * min_depth(lcs) / min_depth(s1) + min_depth(s2)
 ~~~~
- - `depth()` = La lunghezza del percorso minimo da questo synset alla radice.
+ - `min_depth(x)` = La lunghezza del percorso minimo dal min_depth synset ad una delle sue radici.
 
 ### Shortest Path
 

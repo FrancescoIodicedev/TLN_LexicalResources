@@ -40,8 +40,8 @@ Un **frame** da annotare nel programma è rappresentato come un lista con 3 elem
 Per le multiword expression è stato utilizzato **spacy** al fine di trovare la radice della multiword è usarla come termine principale da disambiguare.
 
 Il mapping è stato eseguito utilizzando **l'algoritmo di lesk** precedentemente implementato, passando come parametri:
-- **word:** frame name, frame element o lexical unit
-- **sentence:** definizione relativa a word presente in Framenet
+- **w:** frame name, frame element o lexical unit
+- **ctx:** definizione relativa a word presente in Framenet
 
 L'annotazione effettuata manualmente è nel file `utils/framenet_data.txt`.
 Nel file `result.txt` è presente un confronto fra i sensi inferiti dal programma e quelli annotati manualmente.

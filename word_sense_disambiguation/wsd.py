@@ -18,7 +18,7 @@ def build_words_path_set(path):
     with open(path, 'r') as file:
         lines = file.readlines()
     for line in lines:
-        res.add(str(line.rstrip()))
+        res.add(str(line.rstxrip()))
     return res
 
 

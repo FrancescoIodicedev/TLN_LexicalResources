@@ -31,22 +31,25 @@ L' algoritmo che effettua la riduzione del testo prende in input 3 parametri:
 - `text` il testo da riassumere rappresentato da una lista di paragrafi
 - `nasari` mappa in cui per chiave ci sono i lemmi e per valore il vettore nasari corrispondente
 
-Dalla `compression_rate` viene calcolano il numero massimo parole che devono essere nel riassunto dopo il testo ha subito il processo `target_num_words`.
+Dalla `compression_rate` viene calcolano il numero massimo parole che devono essere nel riassunto.
+
+- `target_num_words = num_words - num_words * compression_rate / 100.`
+
 L'algoritmo di compressione effettua i seguenti step ad ogni iterazione:
- - calcola la frequenza di ogni parola nel testo ordinandole in base alle occorrenze
- - da nasari estrae tutti i vettori associati alle prime 10 parole più frequenti
+ - calcola le occorrenze di ogni parola nel testo ordinandole in base alla loro frequenza.
+ - da Nasari estrae tutti i vettori associati alle prime 10 parole più frequenti
  - effettua il rank di tutti i paragrafi secondo le seguenti metriche:
     - **coesione**
     - **weighted overlap** con le parole più frequenti
     - **titolo**
  - il risultato di ogni ranking è un vettore di lunghezza uguale al numero di paragrafi del testo e nella posizone i-esima è presente la valutazione del paragrafo i-esimo.
- - effettua la somma dei 3 vettori ottenendo `sum_ranks` in cui per ogni cella i c'è la somma di tutti i rank calcolati per il paragrafo i-esimo.
+ - effettua la somma punto a punto dei 3 vettori (per ogni cella i c'è la somma di tutti i rank calcolati per il paragrafo i-esimo).
  - rimuove il paragrafo i-esimo dove i è la posizione con il valore minore in sum_ranks.
 La condizione di stop è che numero di parole presenti nel testo è inferiore `target_num_words`.
 
 #### Ranking 
 
-Le funzioni ranking ritornano un vettore con dimensione pari al numero di paragrafi, e in ogni cella i c'è il valore di rank per il paragrafo i
+Le funzioni ranking ritornano un vettore con dimensione pari al numero di paragrafi, e in ogni cella i c'è il valore di rank per il paragrafo i.
  
 #### Ranking cohesion
 Per ogni paragrafo vengono salvati i termini rilevati filtrando le stopword.
@@ -82,7 +85,6 @@ La funzione che calcola la similarità tra 2 termini `sim(w1,w2)` calcola il val
 
 La formula è stata implmentata come segue
 ~~~~python
-# Input
 def weighted_overlap(w1, w2):
     O = set(w1.keys()).intersection(w2.keys())
     # O is the set of the overlap dimension between 2 vector
