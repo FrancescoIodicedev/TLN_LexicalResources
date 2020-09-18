@@ -12,8 +12,10 @@ A **bag-of-words** means an unordered set of words, ignoring their exact positio
 By far the most well-studied dictionary-based algorithm for sense disambiguation is the Lesk algorithm.
 
 ## Requirement 
-- Implementare l'algoritmo di lesk con l'approccio bag-of-word 
-- Estrarre 50 frasi dal corpus SemCor (corpus annotato con i synset di WN) e disambiguare almeno un sostantivo per frase. Calcolare l’accuratezza del sistema implementato sulla base dei sensi annotati in SemCor.
+Implementare l'algoritmo di lesk.
+1. Disambiguare i termini polisemici all’interno delle frasi del file ‘sentences.txt’; oltre a restituire i synset ID del senso
+  (appropriato per il contesto), il programma deve riscrivere ciascuna frase in input sostituendo il termine polisemico con l’elenco dei sinonimi eventualmente presenti nel synset.
+2. Estrarre 50 frasi dal corpus SemCor (corpus annotato con i synset di WN) e disambiguare almeno un sostantivo per frase. Calcolare l’accuratezza del sistema implementato sulla base dei sensi annotati in SemCor.
 
 ### Lesk
 Di seguito lo pseudocodice dell'algoritmo:
@@ -56,16 +58,38 @@ def lesk_algorithm(word, sentence):
 
 3.`intersection(signature, context)`: ritorna l'intersezione tra i 2 insiemi.
 
+Nel file `sentences.txt` è stata aggiunta l'annotazione del sensi target effettuata manualmente. 
+
+Il confronto fra i sensi annotati manualmente e quelli inferiti dal programma è nel file `output_sentences.txt` in cui è presente anche la riscrittura di ciascuna frase in input sostituendo il termine polisemico con l’elenco dei sinonimi eventualmente presenti nel synset.
+
+Le frasi sono state estratte da SemCor con il seguente algoritmo che ritorna 2 di liste della stessa lunghezza, in cui ogni elemento i-esimo rappresenta rispettivamente la frase e il sostantivo da disambiguare.
+
+~~~~python
+def get_semcor_sentences(data_size):
+    sentences, senses = [], []
+    for index in range(0, data_size):
+        for node in semcor.tagged_sents(tag='both')[index]:
+            node_noun = None
+            # If node is a noun
+            if isinstance(node.label(), Lemma) and node[0].label() == 'NN':
+                node_noun = node
+                break
+        if node_noun:
+            senses.append(node)
+            sentences.append(" ".join(semcor.sents()[index]))
+    return sentences, senses                                                                                                                                        
+~~~~
+
 ### Result
 
 Il sistema è stato valutato confrontando i sensi inferiti dall'algoritmo di lesk con quelli annotati presenti nel corpo SemCor.
 
-Version WSD | Accuracy 
+Version Lesk | Accuracy 
 ------------ | :------------: 
 | | 
 | |
-WSD nltk | 38% 
-WSD implemented | 64%
+Lesk of nltk | 38% 
+Lesk implemented | 64%
 
 ## Authors
 

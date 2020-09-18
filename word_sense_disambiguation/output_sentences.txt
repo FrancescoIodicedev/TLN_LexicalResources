@@ -1,0 +1,114 @@
+**************************************************
+
+Sentence : Arms bend at the elbow.
+Word Target : Arms
+Sense inferred Synset('sleeve.n.01')
+Sense Target Synset('arm.n.01')
+Result: FAIL
+Sentence with synonym : [sleeve arm] bend at the elbow.
+
+
+Sentence : Germany sells arms to Saudi Arabia.
+Word Target : arms
+Sense inferred Synset('arm.n.01')
+Sense Target Synset('arm.n.03')
+Result: FAIL
+Sentence with synonym : Germany sells [arm] to Saudi Arabia.
+
+
+Sentence : The key broke in the lock.
+Word Target : key
+Sense inferred Synset('key.n.01')
+Sense Target Synset('key.n.01')
+Result: OK
+Sentence with synonym : The [key] broke in the lock.
+
+
+Sentence : The key problem was not one of quality but of quantity.
+Word Target : key
+Sense inferred Synset('key.n.05')
+Sense Target Synset('key.n.02')
+Result: FAIL
+Sentence with synonym : The [key] problem was not one of quality but of quantity.
+
+
+Sentence : Work out the solution in your head.
+Word Target : solution
+Sense inferred Synset('solution.n.01')
+Sense Target Synset('solution.n.02')
+Result: FAIL
+Sentence with synonym : Work out the [solution] in your head.
+
+
+Sentence : Heat the solution to 75° Celsius.
+Word Target : solution
+Sense inferred Synset('solution.n.01')
+Sense Target Synset('solution.n.01')
+Result: OK
+Sentence with synonym : Heat the [solution] to 75° Celsius.
+
+
+Sentence : The house was burnt to ashes while the owner returned.
+Word Target : ashes
+Sense inferred Synset('ash.v.01')
+Sense Target Synset('ash.n.01')
+Result: FAIL
+Sentence with synonym : The house was burnt to [ash] while the owner returned.
+
+
+Sentence : This table is made of ash wood.
+Word Target : ash
+Sense inferred Synset('ash.n.01')
+Sense Target Synset('ash.n.02')
+Result: FAIL
+Sentence with synonym : This table is made of [ash] wood.
+
+
+Sentence : The lunch with her boss took longer than she expected.
+Word Target : lunch
+Sense inferred Synset('lunch.n.01')
+Sense Target Synset('lunch.v.01')
+Result: FAIL
+Sentence with synonym : The [lunch luncheon tiffin dejeuner] with her boss took longer than she expected.
+
+
+Sentence : She packed her lunch in her purse.
+Word Target : lunch
+Sense inferred Synset('lunch.v.02')
+Sense Target Synset('lunch.n.01')
+Result: FAIL
+Sentence with synonym : She packed her [lunch] in her purse.
+
+
+Sentence : The classification of the genetic data took two years.
+Word Target : classification
+Sense inferred Synset('classification.n.02')
+Sense Target Synset('categorization.n.03')
+Result: FAIL
+Sentence with synonym : The [classification categorization categorisation] of the genetic data took two years.
+
+
+Sentence : The journal Science published the classification this month.
+Word Target : classification
+Sense inferred Synset('categorization.n.03')
+Sense Target Synset('classification.n.02')
+Result: FAIL
+Sentence with synonym : The journal Science published the [categorization categorisation classification compartmentalization compartmentalisation assortment] this month.
+
+
+Sentence : His cottage is near a small wood.
+Word Target : wood
+Sense inferred Synset('wood.n.01')
+Sense Target Synset('forest.n.01')
+Result: FAIL
+Sentence with synonym : His cottage is near a small [wood].
+
+
+Sentence : The statue was made out of a block of wood.
+Word Target : wood
+Sense inferred Synset('wood.n.01')
+Sense Target Synset('wood.n.01')
+Result: OK
+Sentence with synonym : The statue was made out of a block of [wood].
+
+**************************************************

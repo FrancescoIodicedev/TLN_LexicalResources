@@ -12,13 +12,28 @@ lemmatizer = WordNetLemmatizer()
 
 ##### Utility #####
 
+def read_sentences(path):
+    sentences, target_value = {}, []
+    file = open(path, 'r')
+    for line in file.readlines():
+        sentences_target = line.split('|')
+        target =''
+        for w in sentences_target[0].split(' '):
+            if w.startswith('*'):
+                target = w.replace('*', '')
+                break
+        sentences[sentences_target[0].replace('*', '').strip()] = remove_punctuation(target)
+        target_value.append(sentences_target[1].replace('\n', ''))
+    file.close()
+    return sentences, target_value
+
 
 def build_words_path_set(path):
     res = set()
     with open(path, 'r') as file:
         lines = file.readlines()
     for line in lines:
-        res.add(str(line.rstxrip()))
+        res.add(str(line.strip()))
     return res
 
 
@@ -27,6 +42,7 @@ def remove_punctuation(string):
     for char in punctuation:
         string = string.replace(char, '')
     string = string.replace("’s", '')
+    string = string.replace("\n", '')
     return string
 
 
@@ -96,7 +112,7 @@ def get_wordnet_ctx(sense):
     # Filter stopword
     for w in contex:
         if w not in stop_words_set:
-            res.add(w)
+            res.add(lemmatizer.lemmatize(w))
 
     return res
 
@@ -137,6 +153,21 @@ def lesk_algorithm(word, sentence):
 
 
 if __name__ == '__main__':
+    # Consegna 1
+    print('*'*50)
+    sentences, sense_target = read_sentences('utils/sentences.txt')
+    for i, s in enumerate(sentences.keys()):
+        sense = lesk_algorithm(lemmatizer.lemmatize(sentences[s].lower()), s)
+        print('\nSentence : {}\nWord Target : {}\nSense inferred {}\nSense Target {}'.format(s, sentences[s], sense, sense_target[i]))
+        if str(sense) == sense_target[i]:
+            print("Result: OK")
+        else:
+            print("Result: FAIL")
+        new_sentence = s.replace(sentences[s], '[' + ' '.join([str(elem) for elem in sense.lemma_names()]) + ']')
+        print('Sentence with synonym : {}\n'.format(new_sentence))
+    # Consegna 2
+    print('*'*50)
+
     data_size = 50
     stop_words_set = build_words_path_set('utils/stop_words_FULL.txt')
     sentences, nouns = get_semcor_sentences(data_size)
@@ -154,9 +185,9 @@ if __name__ == '__main__':
         print("\nTarget: ", target[i])
         print("Inferred: ", result[i])
         if target[i] == result[i]:
-            print("Result: ", "OK")
+            print("Result: OK")
         else:
-            print("FAIL")
+            print("Result: FAIL")
     print("\n")
 
     print("WSD accuracy with Hyponym and Hypernym terms: {:.0f}%\n".format(accuracy_score(target, result) * 100))
