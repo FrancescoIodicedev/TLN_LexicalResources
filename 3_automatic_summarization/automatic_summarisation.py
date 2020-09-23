@@ -135,7 +135,6 @@ def rank_paragraphs_by_cohesion(paragraphs, stopwords):
         j = i + 1
         intersection_with_next = set(relevant_terms_for_p[i]).intersection(set(relevant_terms_for_p[j]))
         ranks[i] = len(intersection_with_next)
-        ranks[j] += len(intersection_with_next)
     return ranks
 
 
@@ -150,7 +149,7 @@ def rank_by_weighted_overlap(context, paragraphs, nasari):
                     # w2 type list -> ([0]lemma_w2, [1]nasari_vector_of_w2)
                     rank += sim(w1, w2, nasari)
         ranks.append(rank)
-    # Compressing value from range [0:50] -> [0:5]
+    # Compressing value from range [0:50] -> [0:7]
     for i, val in enumerate(ranks):
         ranks[i] = val / 7
     return ranks

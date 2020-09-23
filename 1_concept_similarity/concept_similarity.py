@@ -1,7 +1,6 @@
 from math import log
 from nltk.corpus import wordnet
 from scipy import stats
-import numpy as np
 
 MAX_DEPTH = 20
 
